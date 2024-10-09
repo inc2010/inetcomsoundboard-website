@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TEST Soundboard</title>
+  <style>
+    /* Define the default and hover button style
+    button {
+      background-color: #032135; /* Default color */
+      color: #fff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9; /* Hover color */
+    }
+
+    /* Style for the bigger button */
+    .big-button {
+      padding: 20px; /* Increase padding to make the button bigger */
+      font-size: 20px; /* Increase font size for better visibility */
+    }
+  </style>
+</head>
+<body>
+  <h1>ACQ Soundboard</h1>
+  <!-- Add more audio elements and buttons as needed -->
+
+  <button class="big-button" onclick="stopAllSounds()">Stop All Sounds</button>
+
+<br>
+<br>
+<h1>1.INTRODUCTION</h1>
+
+
+<audio id="20220301-190437_403344006-all" src="1. intro.wav"></audio>
+<button onclick="playSound('20220301-190437_403344006-all')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">1. INTRO </button>
+
+<audio id="20220301-190609_403344006-all" src="2. script part 1.wav"></audio>
+<button onclick="playSound('20220301-190609_403344006-all')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">2. Script Part 1</button>
+
+<audio id="20220303-132826_403344006-all" src="3. script part 2.wav"></audio>
+<button onclick="playSound('20220303-132826_403344006-all')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">3. Script Part 2</button>
+
+<audio id="Recording (2)" src="4. script part 3.wav"></audio>
+<button onclick="playSound('Recording (2)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">4. Script Part 3</button>
+
+<audio id="Recording (3)" src="5. script part 4.wav"></audio>
+<button onclick="playSound('Recording (3)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">5. Script Part 4</button>
+
+<br>
+</br>
+
+<audio id="Recording (4)" src="6. script part 5.wav"></audio>
+<button onclick="playSound('Recording (4)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">6. Script Part 5</button>
+
+<audio id="Recording (5)" src="7. script part 6.wav"></audio>
+<button onclick="playSound('Recording (5)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">7. Script Part 6</button>
+
+<audio id="Recording (6)" src="8. if no at end of scripts.wav"></audio>
+<button onclick="playSound('Recording (6)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">8. if no at end of scripts</button>
+
+<audio id="Recording (7)" src="9. if yes at end of script.wav"></audio>
+<button onclick="playSound('Recording (7)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">9. if yes at end of script</button>
+
+<audio id="Recording (8)" src="10. cost of 40 trees.wav"></audio>
+<button onclick="playSound('Recording (8)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">10. cost of 40 trees.wav</button>
+
+<br>
+</br>
+
+<audio id="Recording (9)" src="11. cost of 100 trees.wav"></audio>
+<button onclick="playSound('Recording (9)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">11. cost of 100 trees</button>
+
+<audio id="Recording (10)" src="12. cost of 140 trees.wav"></audio>
+<button onclick="playSound('Recording (10)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">12. cost of 140 trees</button>
+
+<audio id="Recording (11)" src="13. cost of 200 trees.wav"></audio>
+<button onclick="playSound('Recording (11)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">13. cost of 200 trees</button>
+
+<audio id="Recording (12)" src="14. cost of 400 trees.wav"></audio>
+<button onclick="playSound('Recording (12)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">14. cost of 400 trees</button>
+
+
+
+<br>
+</br>
+
+<audio id="Recording (13)" src="15. no response 1.wav"></audio>
+<button onclick="playSound('Recording (13)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">15. no response 1</button>
+
+<audio id="Recording (14)" src="16. no response 2.wav"></audio>
+<button onclick="playSound('Recording (14)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">16. no response 2</button>
+
+<audio id="Recording (15)" src="17. agent name.wav"></audio>
+<button onclick="playSound('Recording (15)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">17. agent name</button>
+
+<audio id="Recording (16)" src="18. charity name.wav"></audio>
+<button onclick="playSound('Recording (16)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">18. charity name</button>
+
+
+<br>
+<br> 
+
+
+<h1>2.DESIRE</h1>
+
+<audio id="Recording (17)" src="19. doesn't like the calls.wav"></audio>
+<button onclick="playSound('Recording (17)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')"> doesn't like the calls</button>
+
+<audio id="Recording (18)" src="20. are you after a donation.wav"></audio>
+<button onclick="playSound('Recording (18)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">20. are you after a donation</button>
+
+<audio id="Recording (19)" src="21. establish a pledge.wav"></audio>
+<button onclick="playSound('Recording (19)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">21. establish a pledge.wav</button>
+
+<audio id="Recording (20)" src="22. repeat of levels.wav"></audio>
+<button onclick="playSound('Recording (20)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">22. repeat of levels</button>
+
+<audio id="Recording (21)" src="23. are you a legit charity.wav"></audio>
+<button onclick="playSound('Recording (21)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">23. are you a legit charity</button>
+
+<br>
+</br>
+
+<audio id="Recording (22)" src="24. can i have your website.wav"></audio>
+<button onclick="playSound('Recording (22)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">24. can i have your website</button>
+
+<audio id="Recording (23)" src="25. i help you already.wav"></audio>
+<button onclick="playSound('Recording (23)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">25. i help you already</button>
+
+<audio id="Recording (24)" src="26. i help other charities.wav"></audio>
+<button onclick="playSound('Recording (24)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">26. i help other charities</button>
+
+<audio id="Recording (25)" src="27. are you above 18.wav"></audio>
+<button onclick="playSound('Recording (25)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">27. are you above 18</button>
+
+<br>
+</br>
+
+<audio id="Recording (26)" src="28. repeat of levels $100+.wav"></audio>
+<button onclick="playSound('Recording (26)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">28. repeat of levels $100+</button>
+
+<audio id="Recording (27)" src="29. repeat of levels $250+.wav"></audio>
+<button onclick="playSound('Recording (27)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">29. repeat of levels $250+</button>
+
+<audio id="Recording (28)" src="30. repeat of levels $350+.wav"></audio>
+<button onclick="playSound('Recording (28)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">30. repeat of levels $350+</button>
+
+<audio id="Recording (29)" src="31. can't afford levels, $50, $75.wav"></audio>
+<button onclick="playSound('Recording (29)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">31. can't afford levels, $50, $75</button>
+
+<br>
+</br>
+
+
+<h1>1.CLOSING</h1>
+<audio id="Recording (30)" src="32. close $250+.wav"></audio>
+<button onclick="playSound('Recording (30)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">32. close $250+</button>
+
+<audio id="Recording (31)" src="33. close $350+.wav"></audio>
+<button onclick="playSound('Recording (31)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">33. close $350+</button>
+
+<audio id="Recording (32)" src="34.$20 ask.wav"></audio>
+<button onclick="playSound('Recording (32)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">34.$20 ask</button>
+
+<audio id="Recording (33)" src="35. persuasive.wav"></audio>
+<button onclick="playSound('Recording (33)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">35. persuasive</button>
+ 
+<br>
+</br>
+
+<audio id="Recording (34)" src="36. persuasive 2.wav"></audio>
+<button onclick="playSound('Recording (34)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">36. persuasive #2</button>
+
+<audio id="Recording (35)" src="37. $100 or $150 short close.wav"></audio>
+<button onclick="playSound('Recording (35)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">37. $100 or $150 short close+</button>
+
+<audio id="Recording (36)" src="38. website address.wav"></audio>
+<button onclick="playSound('Recording (36)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">38. website address</button>
+
+<audio id="Recording (37)" src="39. phone.wav"></audio>
+<button onclick="playSound('Recording (37)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">39. phone</button>
+ 
+<br>
+</br>
+
+<audio id="Recording (38)" src="40. abn.wav"></audio>
+<button onclick="playSound('Recording (38)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">40. abn</button>
+
+<audio id="Recording (39)" src="41. where's my money going.wav"></audio>
+<button onclick="playSound('Recording (39)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">41. where's my money going</button>
+
+<audio id="Recording (40)" src="42. haven't heard of RCF.wav"></audio>
+<button onclick="playSound('Recording (40)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">42. haven't heard of RCF</button>
+
+<audio id="Recording (41)" src="double the donation.wav"></audio>
+<button onclick="playSound('Recording (41)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">double the donation</button>
+ 
+</br>
+</br>
+
+<audio id="Recording (30)" src="32. close $250+.wav"></audio>
+<button onclick="playSound('Recording (30)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">32. close $250+</button>
+
+<audio id="Recording (31)" src="33. close $350+.wav"></audio>
+<button onclick="playSound('Recording (31)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">33. close $350+</button>
+
+<audio id="Recording (32)" src="34.$20 ask.wav"></audio>
+<button onclick="playSound('Recording (32)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">34.$20 ask</button>
+
+<audio id="Recording (33)" src="35. persuasive.wav"></audio>
+<button onclick="playSound('Recording (33)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">35. persuasive</button>
+ 
+<br>
+</br>
+
+<audio id="Recording (34)" src="36. persuasive 2.wav"></audio>
+<button onclick="playSound('Recording (34)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">36. persuasive #2</button>
+
+<audio id="Recording (35)" src="37. $100 or $150 short close.wav"></audio>
+<button onclick="playSound('Recording (35)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">37. $100 or $150 short close+</button>
+
+<audio id="Recording (36)" src="38. website address.wav"></audio>
+<button onclick="playSound('Recording (36)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">38. website address</button>
+
+<audio id="Recording (37)" src="39. phone.wav"></audio>
+<button onclick="playSound('Recording (37)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">39. phone</button>
+ 
+<br>
+</br>
+
+<audio id="Recording (38)" src="40. abn.wav"></audio>
+<button onclick="playSound('Recording (38)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">40. abn</button>
+
+<audio id="Recording (39)" src="41. where's my money going.wav"></audio>
+<button onclick="playSound('Recording (39)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">41. where's my money going</button>
+
+<audio id="Recording (40)" src="42. haven't heard of RCF.wav"></audio>
+<button onclick="playSound('Recording (40)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">42. haven't heard of RCF</button>
+
+<audio id="Recording (41)" src="double the donation.wav"></audio>
+<button onclick="playSound('Recording (41)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">double the donation</button>
+ 
+</br>
+</br>
+
+<h1>AUTOMATED CLOSE</h1>
+
+<audio id="Recording (42)" src="1. if not.wav"></audio>
+<button onclick="playSound('Recording (42)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">1. if not</button>
+
+<audio id="Recording (43)" src="2. if yes to double.wav"></audio>
+<button onclick="playSound('Recording (43)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">2. if yes to double</button>
+
+<audio id="Recording (44)" src="3. if yes to small bump up.wav"></audio>
+<button onclick="playSound('Recording (44)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">if yes to small bump up</button>
+
+<audio id="Recording (45)" src="4. confirm details.wav"></audio>
+<button onclick="playSound('Recording (45)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">4. confirm details</button>
+ 
+<br>
+</br>
+
+<audio id="Recording (46)" src="5. I don't have your details.wav"></audio>
+<button onclick="playSound('Recording (46)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">5. I don't have your details</button>
+
+<audio id="Recording (47)" src="11. mobile resell.wav"></audio>
+<button onclick="playSound('Recording (47)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">11. mobile resell</button>
+
+<audio id="Recording (48)" src="12. second contact number.wav"></audio>
+<button onclick="playSound('Recording (48)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">12. second contact number</button>
+
+<audio id="Recording (49)" src="14. dob resell.wav"></audio>
+<button onclick="playSound('Recording (49)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">14. dob resell.wav</button>
+
+
+<br>
+</br>
+
+<audio id="Recording (50)" src="24. can i have your website.wav"></audio>
+<button onclick="playSound('Recording (50)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">24. can i have your website</button>
+
+<audio id="Recording (51)" src="25. donation confirmation.wav"></audio>
+<button onclick="playSound('Recording (51)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">25. donation confirmation</button>
+
+<audio id="Recording (52)" src="30. read the cc numbers.wav"></audio>
+<button onclick="playSound('Recording (52)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">30. read the cc numbers</button>
+
+<audio id="Recording (53)" src="31. cc resell.wav"></audio>
+<button onclick="playSound('Recording (53)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">31. cc resell</button>
+
+<br>
+</br>
+
+<audio id="Recording (54)" src="31. cc to dd.wav"></audio>
+<button onclick="playSound('Recording (54)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">31. cc to dd</button>
+
+<audio id="Recording (55)" src="36. wonderful we'll now process that cc.wav"></audio>
+<button onclick="playSound('Recording (55)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">36. wonderful we'll now process that</button>
+
+<audio id="Recording (56)" src="38. we can also do dd.wav"></audio>
+<button onclick="playSound('Recording (56)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">if yes to small bump up</button>
+
+<audio id="Recording (57)" src="43. wonderfullwe'll now process that dd.wav"></audio>
+<button onclick="playSound('Recording (57)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">4. confirm details</button>
+
+<audio id="Recording (58)" src="1. if not.wav"></audio>
+<button onclick="playSound('Recording (58)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">1. if not</button>
+
+<audio id="Recording (59)" src="2. if yes to double.wav"></audio>
+<button onclick="playSound('Recording (59)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">2. if yes to double</button>
+
+<audio id="Recording (60)" src="3. if yes to small bump up.wav"></audio>
+<button onclick="playSound('Recording (60)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">if yes to small bump up</button>
+
+<audio id="Recording (31)" src="4. confirm details.wav"></audio>
+<button onclick="playSound('Recording (61)')" onmouseover="changeButtonColor(this, '#2ecc71')" onmouseout="changeButtonColor(this, '#052941')">4. confirm details</button>
+
+  <!-- Add more audio elements and buttons as needed -->
+  <!-- Add more audio elements and buttons as needed -->
+
+  <script>
+    let currentAudio;
+
+    function playSound(audioId) {
+      stopAllSounds(); // Stop any currently playing sound
+
+      currentAudio = new Audio(document.getElementById(audioId).src);
+      currentAudio.play();
+    }
+
+    function stopAllSounds() {
+      if (currentAudio && !currentAudio.paused) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+      }
+    }
+
+    function changeButtonColor(button, color) {
+      button.style.backgroundColor = color;
+    }
+  </script>
+
+</body>
+</html>
